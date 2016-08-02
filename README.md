@@ -40,5 +40,9 @@ All of the following will require a basic knowledge of the terminal. First, navi
 - Make sure you have [C](http://www.cprogramming.com/) installed.
 - Run `./scrambler`.
 
+#### Python (`scrambler.py`)
+- Make sure you have [Python](https://python.org) installed.
+- Run `python scrambler.py`.
+
 ### Disclaimer
 This is not official competition software; it is only a simple algorithm that I quickly wrote in multiple implementations as an exercise in programming languages. If you notice any bugs, please file it as an issue.
