@@ -18,14 +18,14 @@ All of the following will require a basic knowledge of the terminal. First, navi
 - Make sure you have [Node.js](https://nodejs.org/en/) installed.
 - Run `nodejs scrambler.js`.
 
-#### Java
+#### Java (`Scrambler.java`)
 - Make sure you have [Java](http://java.com/en/download/installed8.jsp) installed.
 - Run `java Scrambler`.
 
-#### Ruby
+#### Ruby (`scrambler.rb`)
 - Make sure you have [Ruby](https://www.ruby-lang.org/en/) installed.
 - Run `ruby scrambler.rb`.
 
-#### C
+#### C (`scrambler.c`)
 - Make sure you have [C](http://www.cprogramming.com/) installed.
 - Run `./scrambler`.
