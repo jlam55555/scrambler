@@ -28,9 +28,9 @@ All of the following will require a basic knowledge of the terminal. First, navi
 - Make sure you have [Node.js](https://nodejs.org/en/) installed.
 - Run `nodejs scrambler.js`.
 
-#### Java (`Scrambler.java`)
+#### Java (`scrambler.java`)
 - Make sure you have [Java](http://java.com/en/download/installed8.jsp) installed.
-- Run `java Scrambler`.
+- Run `java scrambler`.
 
 #### Ruby (`scrambler.rb`)
 - Make sure you have [Ruby](https://www.ruby-lang.org/en/) installed.
