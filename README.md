@@ -25,3 +25,7 @@ All of the following will require a basic knowledge of the terminal. First, navi
 #### Ruby
 - Make sure you have [Ruby](https://www.ruby-lang.org/en/) installed.
 - Run `ruby scrambler.rb`.
+
+#### C
+- Make sure you have [C](http://www.cprogramming.com/) installed.
+- Run `./scrambler`.
