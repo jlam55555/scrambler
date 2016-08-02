@@ -21,3 +21,7 @@ All of the following will require a basic knowledge of the terminal. First, navi
 #### Java
 - Make sure you have [Java](http://java.com/en/download/installed8.jsp) installed.
 - Run `java Scrambler`.
+
+#### Ruby
+- Make sure you have [Ruby](https://www.ruby-lang.org/en/) installed.
+- Run `ruby scrambler.rb`.
