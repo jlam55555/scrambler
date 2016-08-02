@@ -3,17 +3,11 @@ var numMoves = 25,
     turnTypes = [ "U", "R", "L", "D", "B", "F" ],
     revTypes = [ " ", "2", "'" ],
     types = 0,
-    type = turnTypes[Math.floor(Math.random()*6)],
-    revs;
+    type = turnTypes[Math.floor(Math.random()*6)];
 console.log();
 while(types < numMoves)
-  if(
-    types == 0 ||
-    moves[types-1] != (type = turnTypes[Math.floor(Math.random()*6)])
-  ) {
-    revs = revTypes[Math.floor(Math.random()*3)];
+  if(types == 0 || moves[types-1] != (type = turnTypes[Math.floor(Math.random()*6)])) {
     moves[types++] = type;
-    process.stdout.write(type + revs + (types % 5 == 0 ? "\n" : "\t"));
+    process.stdout.write(type + revTypes[Math.floor(Math.random()*3)] + (types % 5 == 0 ? "\n" : "\t"));
   }
-console.log();
 console.log();
