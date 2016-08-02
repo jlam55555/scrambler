@@ -17,6 +17,7 @@ All of the following will require a basic knowledge of the terminal. First, navi
 #### JavaScript (`scrambler.js`)
 - Make sure you have [Node.js](https://nodejs.org/en/) installed.
 - Run `nodejs scrambler.js`.
+
 #### Java
 - Make sure you have [Java](http://java.com/en/download/installed8.jsp) installed.
 - Run `java Scrambler`.
