@@ -5,6 +5,9 @@ Check out [the website](http://jlam55555.github.io/scrambler) for a scramble. Sc
 
 ![screenshot of website](http://i.imgur.com/iRhJ4ez.jpg)
 
+### Inspiration
+- Bored on a summer day, with a knowledge of too many programming languages. Decided to experiment with some I don't usually use.
+
 ### Features
 - Quick and simple: just run and cube!
 - Easily run your favorite implementation.
@@ -16,6 +19,9 @@ Check out [the website](http://jlam55555.github.io/scrambler) for a scramble. Sc
 - Executable files are in the `bin` directory, source files are in the `src` directory.
 
 ### How to Run
+#### Website (`index.html` et al.)
+- Navigate to the URL: http://jlam55555.github.io/scrambler. No experience required!
+
 All of the following will require a basic knowledge of the terminal. First, navigate to the `bin` directory, where the executable (runnable) files are located, and then run the language-specific command:
 
 #### JavaScript (`scrambler.js`)
