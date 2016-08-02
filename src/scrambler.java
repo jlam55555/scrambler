@@ -1,4 +1,4 @@
-public class Scrambler {
+public class scrambler {
   public static void main(String[] args) {
     int numMoves = 25, types = 0;
     String[] moves = new String[25],
