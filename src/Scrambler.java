@@ -4,17 +4,17 @@ public class Scrambler {
     String[] moves = new String[25],
              turnTypes = { "U", "R", "L", "D", "B", "F" },
              revTypes = { " ", "2", "'" };
-    String type = turnTypes[(int) Math.floor(Math.random()*6)],
-           revs;
+    String type = turnTypes[(int) Math.floor(Math.random()*6)];
+    System.out.println();
     while(types < numMoves) {
       if(
         types == 0 ||
         moves[types-1] != (type = turnTypes[(int) Math.floor(Math.random()*6)])
       ) {
-        revs = revTypes[(int) Math.floor(Math.random()*3)];
         moves[types++] = type;
-        System.out.print(type + revs + (types % 5 == 0 ? "\n" : "\t"));
+        System.out.print(type + revTypes[(int) Math.floor(Math.random()*3)] + (types % 5 == 0 ? "\n" : "\t"));
       }
     }
+    System.out.println();
   }
 }
