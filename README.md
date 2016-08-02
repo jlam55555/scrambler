@@ -1,5 +1,7 @@
 # scrambler
-A simple Rubik's cube random scrambler. Now featuring multiple implementations!
+A simple Rubik's cube random scrambler. Now featuring multiple implementations and a website!
+
+Check out [the website](http://jlam55555.github.io/scrambler) for a scramble.
 
 ### Features
 - Quick and simple: just run and cube!
