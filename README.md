@@ -44,5 +44,9 @@ All of the following will require a basic knowledge of the terminal. First, navi
 - Make sure you have [Python](https://python.org) installed.
 - Run `python scrambler.py`.
 
+#### PHP (`scrambler.php`)
+- Make sure you have [PHP](http://php.net/manual/en/features.commandline.php) (the shell command) installed.
+- Run `php scrambler.php`.
+
 ### Disclaimer
 This is not official competition software; it is only a simple algorithm that I quickly wrote in multiple implementations as an exercise in programming languages. If you notice any bugs, please file it as an issue.
