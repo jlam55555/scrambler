@@ -1,0 +1,35 @@
+#!/bin/bash
+
+echo -e "Benchmark $(date)\n--------------" > bm.txt
+
+cd ../bin
+
+echo
+echo "|----------------------|"
+echo "| Scrambler Benchmarks |"
+echo "|----------------------|"
+echo "| Outputs at bm.txt    |"
+echo "|----------------------|"
+
+declare -A commands
+commands=(
+  ["C"]="./scrambler"
+  ["Java"]="java scrambler"
+  ["JS"]="nodejs scrambler.js"
+  ["PHP"]="php scrambler.php"
+  ["Pythn"]="python3.5 scrambler.py"
+  ["Ruby"]="ruby scrambler.rb"
+)
+
+for command in "${!commands[@]}"
+do
+  start=$(date +%s%N)
+  eval "${commands[$command]} >> ../dist/bm.txt"
+  end=$(date +%s%N)
+  benchmarkString="$command\t$(((end-start)/1000000))ms"
+  echo -e "| $benchmarkString\t       |"
+  echo -e "$benchmarkString\n---------------" >> ../dist/bm.txt
+done
+
+echo "|----------------------|"
+echo
