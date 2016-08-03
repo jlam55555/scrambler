@@ -54,7 +54,7 @@ All of the following will require a basic knowledge of the terminal. First, navi
 ```ruby scrambler.rb```
 
 #### C (`bin/scrambler.c`)
-```./scrambler```
+`./scrambler`
 
 #### Python (`bin/scrambler.py`)
 ```python scrambler.py```
